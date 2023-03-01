@@ -24,6 +24,7 @@ module Decidim
         end
       end
 
+      # :nocov:
       initializer "decidim_cache_cleaner.admin_menu" do
         Decidim.menu :admin_menu do |menu|
           menu.add_item(
@@ -37,6 +38,7 @@ module Decidim
           )
         end
       end
+      # :nocov:
     end
   end
 end

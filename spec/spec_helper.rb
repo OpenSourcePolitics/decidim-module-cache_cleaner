@@ -8,7 +8,7 @@ if ENV["CODECOV"]
     add_filter "spec/decidim_dummy_app"
   end
 
-  SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
+  SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter if ENV["CI"]
 end
 
 require "decidim/dev"
