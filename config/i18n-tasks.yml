@@ -1,0 +1,10 @@
+---
+
+base_locale: en
+locales: [en, fr]
+
+ignore_unused:
+  - decidim.cache_cleaner.menu.cache_cleaner
+
+ignore_missing:
+  - decidim.participatory_processes.scopes.global

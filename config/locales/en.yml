@@ -1,0 +1,27 @@
+---
+en:
+  decidim:
+    cache_cleaner:
+      admin:
+        cache_manager:
+          index:
+            cache_activated: Cache activated with %{cache_store}
+            cache_not_activated: Cache is not activated
+            clear_cache: I understood, clear the cache
+            confirm_destroy: I understood that this action will slow down my application
+              while it regenerates the cache. Are you sure you want to clear the cache?
+            description: Rails caching is a technique used to speed up web applications
+              by storing frequently accessed data or computations in memory, rather
+              than recomputing them every time they are needed. This can be especially
+              helpful for reducing the amount of time it takes to load pages and improving
+              overall website performance. When your application displays informations
+              that seems out of date, you may try to clear the cache but be carreful,
+              your application will be a little slower while it regenerates.
+            not_clearable: Cache is not clearable
+            title: Decidim cache manager
+      cache_manager:
+        clear:
+          error: Cache has not been cleared
+          success: Cache cleared successfully
+      menu:
+        cache_cleaner: Cache cleaner
