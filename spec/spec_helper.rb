@@ -1,11 +1,14 @@
 # frozen_string_literal: true
 
 require "simplecov"
+require "simplecov-cobertura"
 
 if ENV["CODECOV"]
   SimpleCov.start "rails" do
     add_filter "spec/decidim_dummy_app"
   end
+
+  SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
 end
 
 require "decidim/dev"
