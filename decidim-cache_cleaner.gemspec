@@ -9,12 +9,12 @@ Gem::Specification.new do |s|
   s.authors = ["armandfardeau"]
   s.email = ["fardeauarmand@gmail.com"]
   s.license = "AGPL-3.0"
-  s.homepage = "https://github.com/decidim/decidim-module-cache_cleaner"
+  s.homepage = "https://github.com/OpenSourcePolitics/decidim-module-cache_cleaner"
   s.required_ruby_version = ">= 2.7"
 
   s.name = "decidim-cache_cleaner"
   s.summary = "A decidim cache_cleaner module"
-  s.description = "."
+  s.description = "A decidim cache cleaner module"
 
   s.files = Dir["{app,config,lib}/**/*", "LICENSE-AGPLv3.txt", "Rakefile", "README.md"]
 
