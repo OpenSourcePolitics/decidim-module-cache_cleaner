@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "spec_helper"
 
 describe Decidim::CacheCleaner::Admin::CacheManagerController, type: :controller do
@@ -29,7 +31,9 @@ describe Decidim::CacheCleaner::Admin::CacheManagerController, type: :controller
 
     context "when cache_manger doesn't clear" do
       before do
+        # rubocop:disable RSpec/AnyInstance
         allow_any_instance_of(Decidim::CacheCleaner::CacheManager).to receive(:clear!).and_return(false)
+        # rubocop:enable RSpec/AnyInstance
       end
 
       it "renders index template" do
