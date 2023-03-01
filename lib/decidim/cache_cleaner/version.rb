@@ -6,7 +6,7 @@ module Decidim
   module CacheCleaner
     # Returns the version of the current build.
     def self.version
-      "1.0.3"
+      "1.0.4"
     end
 
     # Returns the version of Decidim this module is compatible with.

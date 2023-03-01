@@ -1,6 +1,6 @@
 # Decidim::CacheCleaner
 
-[![codecov](https://codecov.io/gh/OpenSourcePolitics/decidim-cache_cleaner/branch/master/graph/badge.svg?token=eJu34XLlVu)](https://codecov.io/gh/OpenSourcePolitics/decidim-cache_cleaner)
+[![codecov](https://codecov.io/gh/OpenSourcePolitics/decidim-module-cache_cleaner/branch/master/graph/badge.svg?token=eJu34XLlVu)](https://codecov.io/gh/OpenSourcePolitics/decidim-module-cache_cleaner)
 ![Tests](https://github.com/OpenSourcePolitics/decidim-module-cache_cleaner/actions/workflows/ci_cd.yml/badge.svg)
 [![Gem Version](https://badge.fury.io/rb/decidim-cache_cleaner.svg)](https://badge.fury.io/rb/decidim-cache_cleaner)
 
