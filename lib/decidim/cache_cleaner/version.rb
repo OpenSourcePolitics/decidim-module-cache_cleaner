@@ -6,7 +6,7 @@ module Decidim
     # :nocov:
     # Returns the version of the current build.
     def self.version
-      "1.0.0"
+      "1.0.1"
     end
 
     # Returns the version of Decidim this module is compatible with.
