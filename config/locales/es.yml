@@ -5,16 +5,16 @@ es:
       admin:
         cache_manager:
           index:
-            cache_activated: Cache activated with %{cache_store}
-            cache_not_activated: Cache is not activated
-            clear_cache: I understood, clear the cache
-            confirm_destroy: I understood that this action will slow down my application while it regenerates the cache. Are you sure you want to clear the cache?
-            description: Rails caching is a technique used to speed up web applications by storing frequently accessed data or computations in memory, rather than recomputing them every time they are needed. This can be especially helpful for reducing the amount of time it takes to load pages and improving overall website performance. When your application displays informations that seems out of date, you may try to clear the cache but be carreful, your application will be a little slower while it regenerates.
-            not_clearable: Cache is not clearable
-            title: Decidim cache manager
+            cache_activated: Caché activada con %{cache_store}
+            cache_not_activated: La caché no está activada
+            clear_cache: Entendido, limpia la caché
+            confirm_destroy: Entiendo que esta acción ralentizará mi aplicación mientras regenera la caché. ¿Estás seguro de que quieres limpiar el caché?
+            description: La caché de Rails es una técnica utilizada para acelerar las aplicaciones web almacenando datos o cálculos de acceso frecuente en la memoria, en lugar de recalcarlos cada vez que son necesarios. Esto puede ser especialmente útil para reducir la cantidad de tiempo que se tarda en cargar páginas y mejorar el rendimiento general del sitio web. Cuando su aplicación muestra información que parece desactualizada puedes intentar limpiar la caché pero ser inteligente, tu aplicación será un poco más lenta mientras se regenera la caché.
+            not_clearable: La caché no se puede borrar
+            title: Gestor de caché decidim
       cache_manager:
         clear:
-          error: Cache has not been cleared
-          success: Cache cleared successfully
+          error: La caché no ha sido borrada
+          success: Caché borrada con éxito
       menu:
-        cache_cleaner: Cache cleaner
+        cache_cleaner: Limpiador de caché
