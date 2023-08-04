@@ -5,23 +5,16 @@ fr:
       admin:
         cache_manager:
           index:
-            cache_activated: Cache activated with %{cache_store}
-            cache_not_activated: Cache is not activated
-            clear_cache: I understood, clear the cache
-            confirm_destroy: I understood that this action will slow down my application
-              while it regenerates the cache. Are you sure you want to clear the cache?
-            description: Rails caching is a technique used to speed up web applications
-              by storing frequently accessed data or computations in memory, rather
-              than recomputing them every time they are needed. This can be especially
-              helpful for reducing the amount of time it takes to load pages and improving
-              overall website performance. When your application displays informations
-              that seems out of date, you may try to clear the cache but be carreful,
-              your application will be a little slower while it regenerates.
-            not_clearable: Cache is not clearable
-            title: Decidim cache manager
+            cache_activated: Cache activé avec %{cache_store}
+            cache_not_activated: Le cache n'est pas activé
+            clear_cache: J'ai compris, vider le cache
+            confirm_destroy: J'ai compris que cette action ralentira mon application pendant qu'elle régénèrera le cache. Êtes-vous sûr de vouloir vider le cache ?
+            description: La mise en cache de Rails est une technique utilisée pour accélérer les applications Web en stockant des données ou des calculs fréquemment consultés en mémoire, plutôt que de les recalculer à chaque fois qu'ils sont nécessaires. Cela peut être particulièrement utile pour réduire le temps de chargement des pages et améliorer les performances globales du site. Lorsque votre application affiche des informations qui semblent obsolètes, vous pouvez essayer de vider le cache mais soyez prudent, votre application sera un peu plus lente pendant qu'il se régénérera.
+            not_clearable: Cache non effaçable
+            title: Gestionnaire de cache Decidim
       cache_manager:
         clear:
-          error: Cache has not been cleared
-          success: Cache cleared successfully
+          error: Le cache n'a pas été vidé
+          success: Cache vidé avec succès
       menu:
-        cache_cleaner: Cache cleaner
+        cache_cleaner: Videur de cache

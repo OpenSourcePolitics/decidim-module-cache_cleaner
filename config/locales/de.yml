@@ -1,0 +1,20 @@
+---
+de:
+  decidim:
+    cache_cleaner:
+      admin:
+        cache_manager:
+          index:
+            cache_activated: Cache aktiviert mit %{cache_store}
+            cache_not_activated: Cache ist nicht aktiviert
+            clear_cache: Ich habe verstanden, leere den Cache
+            confirm_destroy: Ich habe verstanden, dass diese Aktion meine Anwendung verlangsamt, während sie den Cache regeneriert. Sind Sie sicher, dass Sie den Cache löschen möchten?
+            description: Rails Caching ist eine Technik zur Beschleunigung von Web-Anwendungen durch Speicherung von häufig aufgerufenen Daten oder Berechnungen im Speicher, anstatt sie jedes Mal neu zu berechnen, wenn sie benötigt werden. Dies kann besonders hilfreich sein, um den Zeitaufwand für das Laden von Seiten zu reduzieren und die Gesamtleistung der Website zu verbessern. Wenn Ihre Anwendung Informationen anzeigt, die veraltet zu sein scheinen Sie können versuchen, den Cache zu löschen, aber seien Sie vorsichtig, als Ihre Anwendung etwas langsamer wird, während sie den Cache regeneriert.
+            not_clearable: Cache ist nicht löschbar
+            title: Decidim Cache-Manager
+      cache_manager:
+        clear:
+          error: Cache wurde nicht geleert
+          success: Cache erfolgreich gelöscht
+      menu:
+        cache_cleaner: Cache-Leerer

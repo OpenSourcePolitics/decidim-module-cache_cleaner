@@ -1,0 +1,20 @@
+---
+es:
+  decidim:
+    cache_cleaner:
+      admin:
+        cache_manager:
+          index:
+            cache_activated: Caché activada con %{cache_store}
+            cache_not_activated: La caché no está activada
+            clear_cache: Entendido, limpia la caché
+            confirm_destroy: Entiendo que esta acción ralentizará mi aplicación mientras regenera la caché. ¿Estás seguro de que quieres limpiar el caché?
+            description: La caché de Rails es una técnica utilizada para acelerar las aplicaciones web almacenando datos o cálculos de acceso frecuente en la memoria, en lugar de recalcarlos cada vez que son necesarios. Esto puede ser especialmente útil para reducir la cantidad de tiempo que se tarda en cargar páginas y mejorar el rendimiento general del sitio web. Cuando su aplicación muestra información que parece desactualizada puedes intentar limpiar la caché pero ser inteligente, tu aplicación será un poco más lenta mientras se regenera la caché.
+            not_clearable: La caché no se puede borrar
+            title: Gestor de caché decidim
+      cache_manager:
+        clear:
+          error: La caché no ha sido borrada
+          success: Caché borrada con éxito
+      menu:
+        cache_cleaner: Limpiador de caché
