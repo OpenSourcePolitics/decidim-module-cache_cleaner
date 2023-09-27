@@ -7,10 +7,10 @@ ca:
           index:
             cache_activated: Memòria cau amb %{cache_store}
             cache_not_activated: La memòria cau no està activada
-            clear_cache: Entesos, elimina la memòria cau
+            clear_cache: Entesos, esborra la memòria cau
             confirm_destroy: Aquesta acció alentirà l'aplicació mentre es regeneri la memòria cau. N'estàs segur, de voler eliminar-la?
-            description: Rails genera memòria cau per accelerar les aplicacions web emmagatzemant les dades a les quals s'accedeix més sovint o processaments ja fets a la memòria, en comptes de reprocessar-los cada vegada que es necessiten. Això pot ser especialment útil per reduir el temps necessari per carregar pàgines i millorar el rendiment del lloc web en general. Si l'aplicació mostra informació possiblement desactualitzada, eliminar la memòria cau pot ser una solució, però l'aplicació pot alentir-se mentre es regenera.
-            not_clearable: La memòria cau no es pot suprimir
+            description: Rails genera memòria cau per accelerar les aplicacions web emmagatzemant les dades a les quals s'accedeix més sovint o processaments ja fets a la memòria, en comptes de reprocessar-los cada vegada que es necessiten. Això pot ser especialment útil per reduir el temps necessari per carregar pàgines i millorar el rendiment del lloc web en general. Si l'aplicació mostra informació possiblement desactualitzada, esborrar la memòria cau pot ser una solució, però l'aplicació pot alentir-se mentre es regenera.
+            not_clearable: La memòria cau no es pot esborrar
             title: Gestor de la memòria cau de Decidim
       cache_manager:
         clear:
