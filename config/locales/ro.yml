@@ -1,0 +1,20 @@
+---
+ro:
+  decidim:
+    cache_cleaner:
+      admin:
+        cache_manager:
+          index:
+            cache_activated: crwdns4161:0%{cache_store}crwdne4161:0
+            cache_not_activated: crwdns4163:0crwdne4163:0
+            clear_cache: crwdns4165:0crwdne4165:0
+            confirm_destroy: crwdns4167:0crwdne4167:0
+            description: crwdns4169:0crwdne4169:0
+            not_clearable: crwdns4171:0crwdne4171:0
+            title: crwdns4173:0crwdne4173:0
+      cache_manager:
+        clear:
+          error: crwdns4175:0crwdne4175:0
+          success: crwdns4177:0crwdne4177:0
+      menu:
+        cache_cleaner: crwdns4179:0crwdne4179:0
