@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email = ["fardeauarmand@gmail.com"]
   s.license = "AGPL-3.0"
   s.homepage = "https://github.com/OpenSourcePolitics/decidim-module-cache_cleaner"
-  s.required_ruby_version = ">= 2.7"
+  s.required_ruby_version = "~> 3.2"
 
   s.name = "decidim-cache_cleaner"
   s.summary = "A decidim cache_cleaner module"
@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,lib}/**/*", "LICENSE-AGPLv3.txt", "Rakefile", "README.md"]
 
-  s.add_dependency "decidim-core", "~> #{Decidim::CacheCleaner.decidim_compatible_version}"
+  s.add_dependency "decidim-core", Decidim::CacheCleaner.decidim_compatible_version
   s.add_development_dependency "rubocop-faker"
 end
