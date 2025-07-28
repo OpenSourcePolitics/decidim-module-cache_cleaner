@@ -6,7 +6,7 @@ describe Decidim::CacheCleaner::Admin::CacheManagerController, type: :controller
   routes { Decidim::CacheCleaner::AdminEngine.routes }
 
   let(:organization) { create(:organization) }
-  let(:current_user) { create(:user, :admin, :confirmed, organization: organization) }
+  let(:current_user) { create(:user, :admin, :confirmed, organization:) }
 
   before do
     request.env["decidim.current_organization"] = organization

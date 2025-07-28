@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency "decidim-core", Decidim::CacheCleaner.decidim_compatible_version
   s.add_development_dependency "rubocop-faker"
+  s.metadata["rubygems_mfa_required"] = "true"
 end

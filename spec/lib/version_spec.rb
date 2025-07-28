@@ -9,7 +9,7 @@ module Decidim
 
       describe ".version" do
         it "returns a string version" do
-          expect(described_class.version).to be_kind_of(String)
+          expect(described_class.version).to be_a(String)
         end
 
         it "returns a valid version" do
@@ -19,7 +19,7 @@ module Decidim
 
       describe ".decidim_compatible_version" do
         it "returns a string version" do
-          expect(described_class.decidim_compatible_version).to be_kind_of(String)
+          expect(described_class.decidim_compatible_version).to be_a(String)
         end
 
         it "returns a valid version" do
