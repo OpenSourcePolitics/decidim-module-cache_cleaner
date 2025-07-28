@@ -10,13 +10,10 @@ gem "decidim-cache_cleaner", path: "."
 gem "bootsnap", "~> 1.4"
 gem "puma", ">= 6.3.1"
 
-group :test do
-  gem "rubocop-faker"
-end
-
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
   gem "decidim-dev"
+  gem "rubocop-faker"
 end
 
 group :development do
