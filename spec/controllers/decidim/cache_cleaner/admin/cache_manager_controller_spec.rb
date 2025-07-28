@@ -26,7 +26,7 @@ describe Decidim::CacheCleaner::Admin::CacheManagerController, type: :controller
       post :clear
 
       expect(flash[:notice]).to be_present
-      expect(subject).to redirect_to(root_path)
+      expect(subject).to redirect_to("/admin/cache_cleaner/")
     end
 
     context "when cache_manger doesn't clear" do
@@ -40,7 +40,7 @@ describe Decidim::CacheCleaner::Admin::CacheManagerController, type: :controller
         post :clear
 
         expect(flash[:alert]).to be_present
-        expect(subject).to redirect_to(root_path)
+        expect(subject).to redirect_to("/admin/cache_cleaner/")
       end
     end
   end
