@@ -38,6 +38,10 @@ module Decidim
           )
         end
       end
+
+      initializer "decidim_cache_cleaner.register_icons" do |_app|
+        Decidim.icons.register(name: "book", icon: "book", category: "system", description: "", engine: :core)
+      end
       # :nocov:
     end
   end

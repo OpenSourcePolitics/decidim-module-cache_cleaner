@@ -5,7 +5,7 @@ require "spec_helper"
 describe "Admin clear cache", type: :system do
   let(:organization) { create(:organization) }
 
-  let!(:user) { create(:user, :admin, :confirmed, organization: organization) }
+  let!(:user) { create(:user, :admin, :confirmed, organization:) }
 
   before do
     switch_to_host(organization.host)
@@ -22,7 +22,7 @@ describe "Admin clear cache", type: :system do
   it "Clears the cache" do
     click_link "I understood, clear the cache"
     expect(page).to have_content("I understood that this action will slow down my application while it regenerates the cache. Are you sure you want to clear the cache?")
-    click_link "OK"
+    click_link_or_button "OK"
     expect(page).to have_content("Cache cleared successfully")
   end
 end
