@@ -31,7 +31,7 @@ module Decidim
             :cache_cleaner,
             I18n.t("menu.cache_cleaner", scope: "decidim.cache_cleaner"),
             decidim_admin_cache_cleaner.root_path,
-            icon_name: "book",
+            icon_name: "delete-bin-line",
             position: 10,
             active: :inclusive,
             if: allowed_to?(:update, :organization, organization: current_organization)
@@ -40,7 +40,7 @@ module Decidim
       end
 
       initializer "decidim_cache_cleaner.register_icons" do |_app|
-        Decidim.icons.register(name: "book", icon: "book", category: "system", description: "", engine: :core)
+        Decidim.icons.register(name: "delete-bin-line", icon: "delete-bin-line", category: "system", description: "", engine: :core)
       end
       # :nocov:
     end
