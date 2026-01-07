@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email = ["fardeauarmand@gmail.com"]
   s.license = "AGPL-3.0"
   s.homepage = "https://github.com/OpenSourcePolitics/decidim-module-cache_cleaner"
-  s.required_ruby_version = "~> 3.2"
+  s.required_ruby_version = "~> 3.3"
 
   s.name = "decidim-cache_cleaner"
   s.summary = "A decidim cache_cleaner module"
