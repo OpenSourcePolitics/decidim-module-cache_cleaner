@@ -5,16 +5,16 @@ ca:
       admin:
         cache_manager:
           index:
-            cache_activated: Cache activated with %{cache_store}
-            cache_not_activated: Cache is not activated
-            clear_cache: I understood, clear the cache
-            confirm_destroy: I understood that this action will slow down my application while it regenerates the cache. Are you sure you want to clear the cache?
-            description: Rails caching is a technique used to speed up web applications by storing frequently accessed data or computations in memory, rather than recomputing them every time they are needed. This can be especially helpful for reducing the amount of time it takes to load pages and improving overall website performance. When your application displays informations that seems out of date, you may try to clear the cache but be carreful, your application will be a little slower while it regenerates.
-            not_clearable: Cache is not clearable
-            title: Decidim cache manager
+            cache_activated: Memòria cau amb %{cache_store}
+            cache_not_activated: La memòria cau no està activada
+            clear_cache: Entesos, esborra la memòria cau
+            confirm_destroy: Aquesta acció alentirà l'aplicació mentre es regeneri la memòria cau. N'estàs segur, de voler eliminar-la?
+            description: Rails genera memòria cau per accelerar les aplicacions web emmagatzemant les dades a les quals s'accedeix més sovint o processaments ja fets a la memòria, en comptes de reprocessar-los cada vegada que es necessiten. Això pot ser especialment útil per reduir el temps necessari per carregar pàgines i millorar el rendiment del lloc web en general. Si l'aplicació mostra informació possiblement desactualitzada, esborrar la memòria cau pot ser una solució, però l'aplicació pot alentir-se mentre es regenera.
+            not_clearable: La memòria cau no es pot esborrar
+            title: Gestor de la memòria cau de Decidim
       cache_manager:
         clear:
-          error: Cache has not been cleared
-          success: Cache cleared successfully
+          error: La memòria cau no s'ha esborrat
+          success: Memòria cau esborrada correctament
       menu:
-        cache_cleaner: Cache cleaner
+        cache_cleaner: Esborrador de memòria cau
